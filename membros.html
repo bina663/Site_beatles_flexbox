@@ -1,65 +1,58 @@
-<!doctype html>
-<html lang='pt-br'>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel='stylesheet' href='_css/estilo.css'>
-    <link rel='stylesheet' href='_css/normalize.css'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='css/normalize.css'>
     <link rel='shortcup icon' href='_imagens/beatle-icon.png'>
-    <title>The Beatles: Membros</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class='conteiner'>
-        <header>
-            <div class='header-inline'>
-                <h1><a href='index.html'>The Beatles</a></h1>
-            <div class='header-inline2 menu'>
-                <ul>
-                    <li><a href='biografia.html'>Biografia</a></li>
-                    <li><a href='fim.html'>Fim</a></li>
-                    <li><a href='membros.html'>Membros</a></li>
-                    <li><a href='https://www.youtube.com/watch?v=TUcA953S0ZU' target="_blank">Musica</a></li>
-                </ul>
-                </div><!--//header-inline-->
-        </header>
-        <div class='banda'>
-            <section class='membro-show'>
-                <h5>John Lennon</h5>
-                <img src='_imagens/johnlennon.jpg'>
-            </section><!--//membro-show-->
-            <section class='sobre-membro'>
-                    <p>John Winston Ono Lennon MBE foi um cantor, compositor e ativista da paz britânico que co-fundou os Beatles, a banda de maior sucesso comercial na história da música popular. Sua parceria de composição com o colega de banda Paul McCartney foi uma das mais célebres da história da música.</p>
-            </section><!--//sobre-show-->
-        </div><!--//banda-->
-        <div class='banda'>
-            <section class='membro-show'>
-                <h5>Paul McCartney</h5>
-                <img src='_imagens/paul.jpg'>
-            </section><!--//membro-show-->
-            <section class='sobre-membro'>
-                    <p>Sir James Paul McCartney é um cantor, compositor, multi-instrumentista, empresário, produtor musical, cinematográfico e ativista dos direitos dos animais britânico. McCartney alcançou fama mundial como membro da banda de rock britânica The Beatles, com John Lennon, George Harrison e Ringo Starr.</p>
-            </section><!--//sobre-show-->
-        </div><!--//banda-->
-        <div class='banda'>
-            <section class='membro-show'>
-                <h5>George Harrison</h5>
-                <img src='_imagens/harisson.jpg'>
-            </section><!--//membro-show-->
-            <section class='sobre-membro'>
-                    <p>George Harrison, foi um guitarrista, cantor, compositor, produtor musical e cinematográfico inglês que obteve fama internacional como guitarrista dos Beatles.</p>
-            </section><!--//sobre-show-->
-        </div><!--//banda-->
-        <div class='banda'>
-            <section class='membro-show'>
-                <h5>Ringo</h5>
-                <img src='_imagens/ringo.jpg'>
-            </section><!--//membro-show-->
-            <section class='sobre-membro'>
-                    <p>Sir Richard Starkey Kt, MBE, mais conhecido pelo seu nome artístico Ringo Starr, é um músico, compositor e ator britânico, que ganhou fama como baterista dos Beatles.</p>
-            </section><!--//sobre-show-->
-        </div><!--//banda-->
-    </div><!--div conteiner-->
+    <nav>
+        <h1>The Beatles</h1>
+        <ul>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='sobre.html'>Sobre</a></li>
+            <li><a href='membros.html'>Membros</a></li>
+            <li><a href='fim.html'>Fim da banda</a></li>
+            <li class="music"><a href='https://www.youtube.com/watch?v=TUcA953S0ZU' target="_blank">Musicas</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="imagens">
+            <h2>Membros da banda</h2>
+            <div class="parent-sec">
+                <section>
+                    <img src="_imagens/johnlennon.jpg" alt="" width="200px">
+                    <figcaption>
+                        John Winston Ono Lennon MBE foi um cantor, compositor e ativista da paz britânico que co-fundou os Beatles, a banda de maior sucesso comercial na história da música popular. Sua parceria de composição com o colega de banda Paul McCartney foi uma das mais célebres da história da música.
+                    </figcaption>
+                </section><!-- sec -->
+                <section>
+                    <img src="_imagens/paul.jpg" alt="">
+                    <figcaption>
+                        Sir James Paul McCartney é um cantor, compositor, multi-instrumentista, empresário, produtor musical, cinematográfico e ativista dos direitos dos animais britânico. McCartney alcançou fama mundial como membro da banda de rock britânica The Beatles, com John Lennon, George Harrison e Ringo Starr.
+                    </figcaption>
+                </section><!-- sec -->
+                <section>
+                    <img src="_imagens/harisson.jpg" alt="">
+                    <figcaption>
+                        George Harrison, foi um guitarrista, cantor, compositor, produtor musical e cinematográfico inglês que obteve fama internacional como guitarrista dos Beatles.
+                    </figcaption>
+                </section><!-- sec -->
+                <section>
+                    <img src="_imagens/ringo.jpg" alt="">
+                    <figcaption>
+                        Sir Richard Starkey Kt, MBE, mais conhecido pelo seu nome artístico Ringo Starr, é um músico, compositor e ator britânico, que ganhou fama como baterista dos Beatles.
+                    </figcaption>
+                </section><!-- sec -->
+            </div>
+        </div><!-- imagens -->
+    </div><!-- container -->
     <footer>
-        <h6>&copy; Copyright</h6>
-    </footer>        
+        <p>Todos os direitos reservados &copy;</p>
+    </footer>
 </body>
 </html>
